@@ -17,7 +17,7 @@ row_index = 0
 
   while row_index < src.count
     element_index = 0
-    while element_index < src[row_index].count
+    while element_index < src[element_index].count
       weather_temp = 0
       if src[row_index][element_index] > weather_temp
         weather_temp = src[row_index][element_index]
