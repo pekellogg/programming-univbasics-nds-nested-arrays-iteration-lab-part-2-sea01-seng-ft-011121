@@ -23,7 +23,7 @@ row_index = 0
       if src[row_index][element_index] < weather_temp
       weather_temp = src[row_index][element_index]
       end
-
+      binding.pry
       lowest_temps_array << weather_temp
       element_index += 1
   end
