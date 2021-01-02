@@ -33,4 +33,3 @@ lowest_temps_array
 end
 
 p find_min_in_nested_arrays(src)
-
