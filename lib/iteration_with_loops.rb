@@ -29,4 +29,4 @@ end
 lowest_temps_array
 end
 
-find_min_in_nested_arrays(src)
+p find_min_in_nested_arrays(src)
