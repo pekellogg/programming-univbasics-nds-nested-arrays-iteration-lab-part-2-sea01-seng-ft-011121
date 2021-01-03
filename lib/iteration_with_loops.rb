@@ -1,5 +1,5 @@
 # require 'pry'
-# 
+#
 # src = [
 #   [19, 21, 24, 26, 30, 34, 37, 39, 40, 45, 48, 50, 55, 60, 63, 59, 49, 45, 40, 39, 34, 32, 25, 18],
 #   [17, 18, 22, 26, 31, 35, 38, 40, 43, 45, 49, 52, 55, 61, 60, 59, 55, 49, 45, 38, 32, 30, 24, 19],
@@ -9,12 +9,12 @@
 #   [25, 29, 30, 36, 39, 45, 49, 50, 52, 57, 58, 59, 60, 66, 65, 59, 54, 49, 45, 40, 36, 30, 26, 24],
 #   [30, 36, 38, 39, 40, 45, 47, 49, 50, 59, 60, 60, 65, 63, 61, 56, 49, 43, 40, 39, 35, 32, 23, 22],
 # ]
-# 
-# 
+#
+#
 # def find_min_in_nested_arrays(src)
 # lowest_temps_array = []
 # row_index = 0
-# 
+#
 #   while row_index < src.length
 #     element_index = 0
 #     while element_index < src[row_index].length
@@ -29,7 +29,7 @@
 # end
 # lowest_temps_array
 # end
-# 
+#
 # p find_min_in_nested_arrays(src)
 def find_min_in_nested_arrays(src)
   lowest_temps_array = []
@@ -48,4 +48,3 @@ def find_min_in_nested_arrays(src)
   end
   lowest_temps_array
 end
-
